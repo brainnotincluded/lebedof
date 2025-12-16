@@ -17,6 +17,19 @@
 - `metro_ring.py` — поиск кратчайшего пути на кольцевой линии с дополнительным перегоном
 - `poles_numbers.py` — задача на включения‑исключения (сумма чисел, делящихся на хотя бы одно из `a[i]`, по модулю `1e9+7`)
 
+### Ambient Painter (камера → музыка)
+- `ambient-painter/` — web‑приложение (Vite + React + Tone.js): генерирует плавную эмбиент‑музыку в реальном времени, анализируя видеопоток с камеры.
+
+Запуск:
+```bash
+cd ambient-painter
+npm install
+npm run dev
+```
+Дальше открой адрес, который выведет Vite (обычно `http://localhost:5173`), нажми **Start camera**, затем **Start audio**.
+
+Подробная установка на Windows/macOS/Linux: `ambient-painter/README.md`.
+
 ## Быстрый старт
 
 ### C++ (railway_switches.cpp)

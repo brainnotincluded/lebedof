@@ -1,0 +1,14 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* Keep native outline only when focus-visible (Mantine already styles focus rings) */
+:focus:not(:focus-visible) {
+  outline: none;
+}
