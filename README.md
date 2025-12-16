@@ -20,7 +20,9 @@
 ### Ambient Painter (камера → музыка)
 - `ambient-painter/` — web‑приложение (Vite + React + Tone.js): генерирует плавную эмбиент‑музыку в реальном времени, анализируя видеопоток с камеры.
 
-Запуск:
+Онлайн‑демо (GitHub Pages): `https://brainnotincluded.github.io/lebedof/`
+
+Запуск локально:
 ```bash
 cd ambient-painter
 npm install
